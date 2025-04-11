@@ -22,6 +22,8 @@ pnpm add name-package
 react: "19.1.0",
 react-dom: "19.1.0",
 react-scripts: "5.0.1"
+angular: "19.2.0"
+typescript: "5.7.2"
 webpack: "5.99.5",
 webpack-cli: "6.0.1"
 
