@@ -26,7 +26,8 @@ const ELEMENT_DATA: PeriodicElement[] = [
   selector: 'app-data-table',
   imports: [MatTableModule, MatSortModule],
   templateUrl: './data-table.component.html',
-  styleUrl: './data-table.component.css'
+  styleUrl: './data-table.component.css',
+  standalone: true,
 })
 export class DataTableComponent implements AfterViewInit {
   private _liveAnnouncer = inject(LiveAnnouncer);

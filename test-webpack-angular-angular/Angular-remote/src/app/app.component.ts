@@ -7,6 +7,7 @@ import { BasicTabsComponent } from './basic-tabs/basic-tabs.component';
   selector: 'app-root',
   imports: [RouterOutlet, DataTableComponent, BasicTabsComponent],
   templateUrl: './app.component.html',
+  standalone: true
 })
 export class AppComponent {
   title = 'angular-remote';
